@@ -9,7 +9,7 @@ from pyrogram.types import (
 def stream_markup(user_id):
   buttons = [
     [
-      InlineKeyboardButton(text="• Mᴇɴᴜ", = switch_inline_query_current_chat=""),
+      InlineKeyboardButton(text="• Mᴇɴᴜ", switch_inline_query_current_chat=""),
       InlineKeyboardButton(text="• Cʟᴏsᴇ", callback_data=f'set_close'),
     ],
   ]
